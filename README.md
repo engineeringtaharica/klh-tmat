@@ -1,8 +1,8 @@
 # KLH-TMAT
+Middleware for integrating HOBO Datalogger to Indonesian KLH's TMAT server by Engineering PT Taharica.
 
 ## Description
-Middleware for integrating HOBO Datalogger to Indonesian KLH's TMAT server.
-The data is grabbed from Li-Cor Cloud and then transferred to KLH's TMAT server.
+All of the program is using python. The data is grabbed from Li-Cor Cloud and then transferred to KLH's TMAT server.
 Most of the data transfer is using request library to GET and POST the data.
 
 ## Installation
