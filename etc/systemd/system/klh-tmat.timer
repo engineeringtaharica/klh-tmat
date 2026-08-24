@@ -1,0 +1,10 @@
+[Unit]
+Description=Triggers klh-tmat.service exactly on the hour
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+Unit=klh-tmat.service
+
+[Install]
+WantedBy=timers.target
