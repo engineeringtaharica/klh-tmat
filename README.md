@@ -8,8 +8,13 @@ Integrating HOBO Datalogger to Indonesian KLH's TMAT server
 # Update local APT repositories and install Python if not installed yet.
 sudo apt update && sudo apt install python3 python3-venv python3-pip -y
 
-# Navigate to project directory
-cd ~/Documents/klh-tmat
+# Create and Navigate to project directory
+cd ~/Documents
+mkdir klh-tmat
+cd klh-tmat
+
+# Clone this repository
+git clone https://github.com/engineeringtaharica/klh-tmat.git
 
 # Create and activate virtual environment
 python3 -m venv venv
