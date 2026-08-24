@@ -18,9 +18,10 @@ git clone https://github.com/engineeringtaharica/klh-tmat.git
 
 # Create and activate virtual environment
 python3 -m venv venv
+venv/bin/activate
 
 # Install required libraries
-./venv/bin/python -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 
 # Edit the klh-tmat files to suit your project folder directory using Nano file editor
 cd etc/systemd/system
