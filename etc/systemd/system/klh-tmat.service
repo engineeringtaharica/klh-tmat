@@ -1,0 +1,15 @@
+[Unit]
+Description=Integration of HOBO Datalogger with KLH's TMAT Server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+# User="username"
+# WorkingDirectory="Folder directory of the python program"
+# ExecStart="python executable directory" "main.py file directory"
+Restart=on-failure
+
+
+[Install]
+WantedBy=multi-user.target
