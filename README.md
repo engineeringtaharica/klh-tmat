@@ -1,7 +1,9 @@
 # KLH-TMAT
 
 ## Description
-Integrating HOBO Datalogger to Indonesian KLH's TMAT server
+Middleware for integrating HOBO Datalogger to Indonesian KLH's TMAT server.
+The data is grabbed from Li-Cor Cloud and then transferred to KLH's TMAT server.
+Most of the data transfer is using request library to GET and POST the data.
 
 ## Installation
 ```bash
