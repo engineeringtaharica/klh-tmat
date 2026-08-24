@@ -1,0 +1,14 @@
+{
+  "licor_token": "YJw2yVl9DIAplAXMuN0FiqBpATFExvsjcDRtDDmJZycasD2W",
+  "klh_api_key": "KLHK-VRX-8292754248",
+  "loggers": [
+    {
+      "licor_sn": "22481961",
+      "klh_device_id_unik": "22481961"
+    },
+    {
+      "licor_sn": "22481960",
+      "klh_device_id_unik": "22481960"
+    }
+  ]
+}
