@@ -8,7 +8,7 @@ Most of the data transfer is using request library to GET and POST the data.
 ## Requirements
 - Linux Ubuntu or Debian.
 - Python version 3.10 or more.
-- Python library : sqlite3, requests
+- Python library : requests
 
 ## Installation
 #### Update local APT repositories and install Python if not installed yet.
@@ -34,7 +34,7 @@ python3 -m venv venv
 venv/bin/activate
 ```
 
-#### Install required libraries
+#### Install required libraries (requests library)
 ```bash
 python -m pip install -r requirements.txt
 ```
