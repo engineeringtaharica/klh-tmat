@@ -5,6 +5,11 @@ Middleware for integrating HOBO Datalogger to Indonesian KLH's TMAT server by En
 All of the program is using python. The data is grabbed from Li-Cor Cloud and then transferred to KLH's TMAT server.
 Most of the data transfer is using request library to GET and POST the data.
 
+## Requirements
+- Linux Ubuntu or Debian.
+- Python version 3.10 or more.
+- Python library : sqlite3, requests
+
 ## Installation
 #### Update local APT repositories and install Python if not installed yet.
 ```bash
