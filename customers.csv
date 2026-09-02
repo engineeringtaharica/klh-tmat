@@ -1,3 +1,2 @@
 customer_name,licor_sn,licor_token,klh_api_key,klh_device_id_unik
-PT. Merbaujaya Indahraya Group,22481961,tDMklgRMnbYa00pUyfUIKp30DOFUIS9OvucMJ4wdp3ze2FvW,KLHK-VRX-8292754248,22481961
-PT. Merbaujaya Indahraya Group,22481960,YJw2yVl9DIAplAXMuN0FiqBpATFExvsjcDRtDDmJZycasD2W,KLHK-VRX-8292754248,22481960
+{Nama PT},{Serial Number Datalogger pada Li-Cor},{token dari Li-Cor Cloud},{API_KEY dari KLH},{device id unik = serial number datalogger}
